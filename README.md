@@ -1,4 +1,20 @@
+### 兼容laravel11
+> 使用说明
+1.添加 repositories
+```json
+    {
+        "laravel-admin": {
+            "type": "git",
+            "url": "https://gitee.com/wzhec/dcat-admin.git"
+        }
+    }
+```
+2.添加 require
 
+```json
+    "dcat/laravel-admin": "dev-feat-laravel11",
+```
+3. composer update
 <div align="center">
     <img src="https://cdn.learnku.com/uploads/images/202009/27/38389/WFQxJ7qZ1k.png!large" height="80"> 
 </div>
